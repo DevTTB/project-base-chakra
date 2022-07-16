@@ -13,5 +13,5 @@ export const radii: IRadius = {
 
 for (let i = 0; i <= 10; i++) {
   const value = ratio * i;
-  radii[`radi-${value}`] = `${value}px`;
+  radii[`radii-${value}`] = `${value}px`;
 }
