@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+        "@src": "./src",
+        "@public": "./public"
+      }
+    }]
+  ]
+}
