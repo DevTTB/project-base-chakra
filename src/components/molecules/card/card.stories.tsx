@@ -1,10 +1,11 @@
 import React from 'react';
 import {ComponentStory, ComponentMeta} from '@storybook/react';
+import {Card} from '@src/components/molecules/card/card';
 
-import {Card} from './card';
+// import {Card} from '/card';
 
 export default {
-  title: 'Molecules/Button',
+  title: 'Molecules/Card',
   component: Card,
   argTypes: {
     backgroundColor: {control: 'color'},
